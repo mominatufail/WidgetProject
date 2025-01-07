@@ -9,6 +9,7 @@ import 'InkWellWidget.dart';
 import 'MaterialAppWidget.dart';
 import 'RowWidget.dart';
 import 'ScaffoldWidget.dart';
+import 'StatelessWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: InkWellExampleScreen()
+      home: StatelessWidgetScreen()
+      //InkWellExampleScreen()
       //CenterWidget()
       //ContainerClass()
       // AssetImageWidgetScreen()
