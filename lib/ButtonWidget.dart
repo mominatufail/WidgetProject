@@ -4,7 +4,7 @@ class ButtonWidgetScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
       appBar: AppBar(backgroundColor: Colors.purple.shade300,
-        title: Text('Button Widget'),
+        title: Center(child: Text('Button Widget')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
