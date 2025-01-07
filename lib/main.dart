@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'MaterialAppWidget.dart';
 import 'ScaffoldWidget.dart';
 
 void main() {
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: ScaffoldScreen(),
+      home: MaterialAppScreen(),
+      //ScaffoldScreen(),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
