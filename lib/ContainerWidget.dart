@@ -74,7 +74,7 @@ class ContainerClass extends StatelessWidget {
                     ),
                   ],
                   gradient: const LinearGradient(
-                    colors: [Colors.blue, Colors.lightBlueAccent],
+                    colors: [Colors.purpleAccent, Colors.pinkAccent],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
