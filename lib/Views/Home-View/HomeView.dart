@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../ScaffoldWidget.dart';
+
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 

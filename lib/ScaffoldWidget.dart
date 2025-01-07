@@ -4,7 +4,7 @@ class ScaffoldScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.blueAccent,
-        title: Text('Scaffold Widget '),
+        title: Center(child: Text('Scaffold Widget ')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
