@@ -27,7 +27,7 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.white,
+    return Scaffold(backgroundColor: Colors.purple.shade50,
       appBar: AppBar(backgroundColor: Colors.purple,
         title: Center(child: Text('Widget Screen')),
       ),
@@ -44,7 +44,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.pink.shade100,
+                      color: Colors.purple.shade100,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -88,7 +88,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.purple.shade100,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
