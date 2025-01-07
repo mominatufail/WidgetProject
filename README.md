@@ -1,4 +1,4 @@
-# widget_app
+# widgetproject
 
 A new Flutter project.
 
