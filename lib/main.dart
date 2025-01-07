@@ -6,6 +6,7 @@ import 'BoxDecorationWidget.dart';
 import 'CenterWidget.dart';
 import 'ColumnWidget.dart';
 import 'ContainerWidget.dart';
+import 'ImageWidget.dart';
 import 'InkWellWidget.dart';
 import 'MaterialAppWidget.dart';
 import 'RowWidget.dart';
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: BoxDecorationScreen()
+      home: ImageWidgetScreen()
+      // BoxDecorationScreen()
       //TextWidget()
       //StatefulWidgetExampleScreen()
       //StatelessWidgetScreen()
