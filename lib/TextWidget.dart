@@ -5,8 +5,8 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      appBar: AppBar(
+    return  Scaffold(backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.purple.shade300,
         title: const Text("Text Widget "),
         centerTitle: true,
       ),

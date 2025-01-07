@@ -11,6 +11,7 @@ import 'RowWidget.dart';
 import 'ScaffoldWidget.dart';
 import 'StatefulWidget.dart';
 import 'StatelessWidget.dart';
+import 'TextWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: StatefulWidgetExampleScreen()
+      home: TextWidget()
+      //StatefulWidgetExampleScreen()
       //StatelessWidgetScreen()
       //InkWellExampleScreen()
       //CenterWidget()
