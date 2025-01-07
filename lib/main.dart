@@ -5,6 +5,7 @@ import 'AssetImageWidget.dart';
 import 'CenterWidget.dart';
 import 'ColumnWidget.dart';
 import 'ContainerWidget.dart';
+import 'InkWellWidget.dart';
 import 'MaterialAppWidget.dart';
 import 'RowWidget.dart';
 import 'ScaffoldWidget.dart';
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: CenterWidget()
+      home: InkWellExampleScreen()
+      //CenterWidget()
       //ContainerClass()
       // AssetImageWidgetScreen()
       //AppBarScreen(),
