@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:widgetproject/ButtonWidget.dart';
 import 'package:widgetproject/CenterWidget.dart';
 import 'package:widgetproject/ImageWidget.dart';
 import 'package:widgetproject/InkWellWidget.dart';
@@ -8,6 +9,7 @@ import 'package:widgetproject/ListTileWidget.dart';
 import 'package:widgetproject/ListViewWidget.dart';
 import 'package:widgetproject/MaterialPage%20Widget.dart';
 import 'package:widgetproject/SingleChildScrollViewWidget.dart';
+import 'package:widgetproject/SizedBoxWidget.dart';
 import 'package:widgetproject/StatelessWidget.dart';
 import '../../AppBarWidget.dart';
 import '../../AssetImageWidget.dart';
@@ -26,7 +28,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.blue,
+      appBar: AppBar(backgroundColor: Colors.purple,
         title: Center(child: Text('Widget Screen')),
       ),
       body: SingleChildScrollView(
@@ -42,7 +44,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.pink.shade100,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -64,7 +66,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.pink.shade200,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
