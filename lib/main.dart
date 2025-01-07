@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'AppBarWidget.dart';
+import 'AssetImageWidget.dart';
 import 'ColumnWidget.dart';
 import 'MaterialAppWidget.dart';
 import 'RowWidget.dart';
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: AppBarScreen(),
+      home: AssetImageWidgetScreen()
+      //AppBarScreen(),
       //MaterialAppScreen(),
       //ScaffoldScreen(),
       //RowWidgetScreen(),

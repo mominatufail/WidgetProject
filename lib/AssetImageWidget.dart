@@ -3,8 +3,8 @@ class AssetImageWidgetScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.blueAccent,
-        title: Text('AssetImage Widget Demo'),
+      appBar: AppBar(backgroundColor: Colors.purple.shade300,
+        title: Center(child: Text('AssetImage Widget Demo')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
