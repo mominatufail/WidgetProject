@@ -31,23 +31,23 @@ class AssetImageWidgetScreen extends StatelessWidget {
                 children: [
                   // Displaying an image using AssetImage with Image widget
                   Image(
-                    image: AssetImage('assets/girl5.jpeg'), // Replace with your own image path in the assets folder
+                    image: AssetImage('Assets/hippo.jpg'), // Replace with your own image path in the assets folder
                     height: 200,
                     width: 300,
                     fit: BoxFit.cover,
                   ),
                   SizedBox(height: 20),
                   // Displaying an image using AssetImage inside a Container as decoration
-                  Container(
-                    height: 200,
-                    width: 300,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage('assets/boy2.jpeg'), // Replace with your own image path
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
+                  // Container(
+                  //   height: 200,
+                  //   width: 300,
+                  //   decoration: BoxDecoration(
+                  //     image: DecorationImage(
+                  //       image: AssetImage('Assets/hippo.jpg'), // Replace with your own image path
+                  //       fit: BoxFit.cover,
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
               SizedBox(height: 20),
