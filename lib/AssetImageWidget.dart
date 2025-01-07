@@ -30,11 +30,13 @@ class AssetImageWidgetScreen extends StatelessWidget {
               Column(
                 children: [
                   // Displaying an image using AssetImage with Image widget
-                  Image(
-                    image: AssetImage('Assets/hippo.jpg'), // Replace with your own image path in the assets folder
-                    height: 200,
-                    width: 300,
-                    fit: BoxFit.cover,
+                  Center(
+                    child: Image(
+                      image: AssetImage('Assets/hippo.jpg'), // Replace with your own image path in the assets folder
+                      height: 200,
+                      width: 300,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                   SizedBox(height: 20),
                   // Displaying an image using AssetImage inside a Container as decoration
@@ -50,7 +52,7 @@ class AssetImageWidgetScreen extends StatelessWidget {
                   // ),
                 ],
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 10),
               Text(
                 'Properties of AssetImage Widget:',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
