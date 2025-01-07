@@ -5,7 +5,7 @@ class ImageWidgetScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
       appBar: AppBar(backgroundColor: Colors.purple.shade300,
-        title: Text('Image Widget'),
+        title: Center(child: Text('Image Widget')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
