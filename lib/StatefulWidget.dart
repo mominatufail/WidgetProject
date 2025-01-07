@@ -30,7 +30,7 @@ class _StatefulWidgetExampleScreenState extends State<StatefulWidgetExampleScree
           children: [
             // Header
             const Text(
-              "What is a StatefulWidget?",
+              "What is a Stateful Widget?",
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,

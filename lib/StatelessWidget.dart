@@ -16,7 +16,7 @@ class StatelessWidgetScreen extends StatelessWidget {
             children: [
               // Header
               const Text(
-                "What is a StatelessWidget?",
+                "What is a Stateless Widget?",
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
