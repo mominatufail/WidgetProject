@@ -41,51 +41,51 @@ class ScaffoldScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, height: 1.5),
               ),
               SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('This is a SnackBar!')),
-                  );
-                },
-                child: Text('Show SnackBar Example'),
-              ),
-            ],
-          ),
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Floating Action Button Pressed!')),
-          );
-        },
-        child: Icon(Icons.add),
-      ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: [
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-              child: Text(
-                'Drawer Header',
-                style: TextStyle(color: Colors.white, fontSize: 18),
-              ),
-            ),
-            ListTile(
-              title: Text('Item 1'),
-              onTap: () {},
-            ),
-            ListTile(
-              title: Text('Item 2'),
-              onTap: () {},
-            ),
+      //         ElevatedButton(
+      //           onPressed: () {
+      //             ScaffoldMessenger.of(context).showSnackBar(
+      //               SnackBar(content: Text('This is a SnackBar!')),
+      //             );
+      //           },
+      //           child: Text('Show SnackBar Example'),
+      //         ),
+      //       ],
+      //     ),
+      //   ),
+      // ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     ScaffoldMessenger.of(context).showSnackBar(
+      //       SnackBar(content: Text('Floating Action Button Pressed!')),
+      //     );
+      //   },
+      //   child: Icon(Icons.add),
+      // ),
+      // drawer: Drawer(
+      //   child: ListView(
+      //     padding: EdgeInsets.zero,
+      //     children: [
+      //       DrawerHeader(
+      //         decoration: BoxDecoration(
+      //           color: Colors.blue,
+      //         ),
+      //         child: Text(
+      //           'Drawer Header',
+      //           style: TextStyle(color: Colors.white, fontSize: 18),
+      //         ),
+      //       ),
+      //       ListTile(
+      //         title: Text('Item 1'),
+      //         onTap: () {},
+      //       ),
+      //       ListTile(
+      //         title: Text('Item 2'),
+      //         onTap: () {},
+           //),
           ],
         ),
       ),
-    );
+    ));
   }
 }
 
