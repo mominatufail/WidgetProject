@@ -29,7 +29,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.purple.shade50,
       appBar: AppBar(backgroundColor: Colors.purple.shade600,
-        title: Center(child: Text('Widget Screen')),
+        title: Center(child: Text('Widget Screen',),),
       ),
       body: SingleChildScrollView(
         child: Row(mainAxisAlignment: MainAxisAlignment.center,
@@ -40,9 +40,9 @@ class HomeView extends StatelessWidget {
                 GestureDetector(
                   onTap: () { Navigator.push(context, CupertinoPageRoute(builder: (context)=>MaterialAppScreen()));
                   },
+                  margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                  padding: EdgeInsets.all(10),
                   child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
                       color: Colors.purple.shade300,
                       borderRadius: BorderRadius.circular(10),
