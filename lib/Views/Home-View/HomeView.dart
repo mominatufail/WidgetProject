@@ -28,7 +28,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.purple.shade50,
-      appBar: AppBar(backgroundColor: Colors.purple,
+      appBar: AppBar(backgroundColor: Colors.purple.shade600,
         title: Center(child: Text('Widget Screen')),
       ),
       body: SingleChildScrollView(
@@ -44,7 +44,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade100,
+                      color: Colors.purple.shade300,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -66,7 +66,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.pink.shade200,
+                      color: Colors.purple.shade400,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -88,7 +88,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade100,
+                      color: Colors.purple.shade300,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -111,7 +111,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.purple.shade400,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
