@@ -20,7 +20,7 @@ class _StatefulWidgetExampleScreenState extends State<StatefulWidgetExampleScree
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
       appBar: AppBar(backgroundColor: Colors.purple.shade300,
-        title: const Text("StatefulWidget"),
+        title: const Text("Stateful Widget"),
         centerTitle: true,
       ),
       body: Padding(
