@@ -5,7 +5,7 @@ class StatelessWidgetScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return   Scaffold(backgroundColor: Colors.white,
       appBar: AppBar(backgroundColor: Colors.purple.shade300,
-        title: const Text("StatelessWidget Example"),
+        title: const Text("Stateless Widget"),
         centerTitle: true,
       ),
       body: Padding(
