@@ -4,7 +4,7 @@ class AssetImageWidgetScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
       appBar: AppBar(backgroundColor: Colors.purple.shade300,
-        title: Center(child: Text('AssetImage Widget Demo')),
+        title: Center(child: Text('AssetImage Widget')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
