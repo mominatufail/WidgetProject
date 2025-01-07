@@ -52,10 +52,10 @@ class AppBarScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              "- Display a title at the top of the screen.\n"
-                  "- Customize background color, elevation, and shape.\n"
-                  "- Include actions like search, settings, or notifications.\n"
-                  "- Provide navigation options with leading buttons (e.g., back, menu).",
+              "1. Display a title at the top of the screen.\n"
+                  "2. Customize background color, elevation, and shape.\n"
+                  "3. Include actions like search, settings, or notifications.\n"
+                  "4. Provide navigation options with leading buttons (e.g., back, menu).",
               style: TextStyle(fontSize: 16, height: 1.5),
             ),
             const SizedBox(height: 16),
