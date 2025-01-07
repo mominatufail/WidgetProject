@@ -35,34 +35,25 @@ class ColumnWidgetScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center, // Align children in the center horizontally
                 children: [
                   Container(
-                    color: Colors.blue,
+                    color: Colors.pink.shade50,
                     height: 50,
                     width: 150,
                     child: Center(child: Text('First Container', style: TextStyle(color: Colors.white))),
                   ),
                   SizedBox(height: 20),
                   Container(
-                    color: Colors.green,
+                    color: Colors.pink.shade100,
                     height: 50,
                     width: 150,
                     child: Center(child: Text('Second Container', style: TextStyle(color: Colors.white))),
                   ),
                   SizedBox(height: 20),
                   Container(
-                    color: Colors.red,
+                    color: Colors.pink.shade200,
                     height: 50,
                     width: 150,
                     child: Center(child: Text('Third Container', style: TextStyle(color: Colors.white))),
                   ),
-                  SizedBox(height: 20),
-                  ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Column Button Pressed!')));
-                    },
-                    child: Text('Column Button'),
-                  ),
-                ],
-              ),
               SizedBox(height: 20),
               Text(
                 'Properties of Column:',
@@ -70,9 +61,9 @@ class ColumnWidgetScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                '1. *mainAxisAlignment*: Aligns the children vertically (start, center, end, spaceEvenly, etc.).\n'
-                    '2. *crossAxisAlignment*: Aligns the children horizontally (start, center, end, stretch, etc.).\n'
-                    '3. *mainAxisSize*: Determines how much space the column should take (max or min).\n',
+                '1. mainAxisAlignment: Aligns the children vertically (start, center, end, spaceEvenly, etc.).\n'
+                    '2. crossAxisAlignment: Aligns the children horizontally (start, center, end, stretch, etc.).\n'
+                    '3. mainAxisSize: Determines how much space the column should take (max or min).\n',
                 style: TextStyle(fontSize: 16, height: 1.5),
               ),
             ],
