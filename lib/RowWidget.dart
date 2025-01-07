@@ -3,8 +3,8 @@ class RowWidgetScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.blueAccent,
-        title: Text('Row Widget'),
+      appBar: AppBar(backgroundColor: Colors.purple.shade300,
+        title: Center(child: Text('Row Widget')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -54,13 +54,13 @@ class RowWidgetScreen extends StatelessWidget {
                       width: 100,
                       child: Center(child: Text('Third Container', style: TextStyle(color: Colors.white))),
                     ),
-                    SizedBox(width: 20),
-                    ElevatedButton(
-                      onPressed: () {
-                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Row Button Pressed!')));
-                      },
-                      child: Text('Row Button'),
-                    ),
+                    // SizedBox(width: 20),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Row Button Pressed!')));
+                    //   },
+                    //   child: Text('Row Button'),
+                    //),
                   ],
                 ),
               ),

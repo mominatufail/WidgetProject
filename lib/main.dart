@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'ColumnWidget.dart';
 import 'MaterialAppWidget.dart';
+import 'RowWidget.dart';
 import 'ScaffoldWidget.dart';
 
 void main() {
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: //MaterialAppScreen(),
       //ScaffoldScreen(),
-        ColumnWidgetScreen(),
+      RowWidgetScreen(),
+        //ColumnWidgetScreen(),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

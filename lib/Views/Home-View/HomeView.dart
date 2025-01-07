@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../ColumnWidget.dart';
+import '../../MaterialAppWidget.dart';
+import '../../RowWidget.dart';
 import '../../ScaffoldWidget.dart';
 
 class HomeView extends StatelessWidget {
