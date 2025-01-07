@@ -47,11 +47,11 @@ class ImageWidgetScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                '1. *Image.asset*: Loads an image from the local assets folder.\n'
-                    '3. *height*: The height of the image.\n'
-                    '4. *width*: The width of the image.\n'
-                    '5. *fit*: Defines how the image should be fitted within the available space (BoxFit.cover, BoxFit.contain, etc.).\n'
-                    '6. *alignment*: Controls how the image is aligned within the available space (top, center, bottom, etc.).\n',
+                '1. Image.asset: Loads an image from the local assets folder.\n'
+                    '3. height: The height of the image.\n'
+                    '4. width: The width of the image.\n'
+                    '5. fit: Defines how the image should be fitted within the available space (BoxFit.cover, BoxFit.contain, etc.).\n'
+                    '6. alignment: Controls how the image is aligned within the available space (top, center, bottom, etc.).\n',
                 style: TextStyle(fontSize: 16, height: 1.5),
               ),
             ],
