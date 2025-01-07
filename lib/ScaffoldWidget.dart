@@ -32,12 +32,12 @@ class ScaffoldScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                '1. *AppBar*: Display a header with navigation and actions at the top of the screen.\n'
-                    '2. *Body*: The main area to display widgets.\n'
-                    '3. *FloatingActionButton*: Add a floating action button for quick actions.\n'
-                    '4. *Drawer*: Implement a side navigation menu.\n'
-                    '5. *BottomNavigationBar*: Add a persistent bottom navigation bar for easy navigation.\n'
-                    '6. *SnackBar*: Show temporary notifications or messages.\n',
+                '1. AppBar: Display a header with navigation and actions at the top of the screen.\n'
+                    '2. Body: The main area to display widgets.\n'
+                    '3. FloatingActionButton: Add a floating action button for quick actions.\n'
+                    '4. Drawer: Implement a side navigation menu.\n'
+                    '5. BottomNavigationBar: Add a persistent bottom navigation bar for easy navigation.\n'
+                    '6. SnackBar: Show temporary notifications or messages.\n',
                 style: TextStyle(fontSize: 16, height: 1.5),
               ),
               SizedBox(height: 20),
