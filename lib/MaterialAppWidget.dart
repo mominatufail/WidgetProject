@@ -27,7 +27,7 @@ class MaterialAppScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                'Key Features of MaterialApp:',
+                'Features of MaterialApp:',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 10),

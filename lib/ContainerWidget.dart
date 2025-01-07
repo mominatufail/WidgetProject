@@ -40,10 +40,10 @@ class ContainerClass extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              "- Customizable width and height.\n"
-                  "- Supports padding, margin, and alignment.\n"
-                  "- Can have borders, rounded corners, shadows, and gradients.\n"
-                  "- Acts as a foundational layout widget.",
+              "1.Customizable width and height.\n"
+                  "2. Supports padding, margin, and alignment.\n"
+                  "3. Can have borders, rounded corners, shadows, and gradients.\n"
+                  "4. Acts as a foundational layout widget.",
               style: TextStyle(fontSize: 16, height: 1.5),
             ),
             const SizedBox(height: 16),
@@ -64,7 +64,7 @@ class ContainerClass extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 margin: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Colors.blueAccent,
+                  color: Colors.pink.shade50,
                   borderRadius: BorderRadius.circular(12),
                   boxShadow: [
                     BoxShadow(

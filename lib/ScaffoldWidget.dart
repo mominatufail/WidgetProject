@@ -27,7 +27,7 @@ class ScaffoldScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                'Key Features of Scaffold:',
+                'Features of Scaffold:',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 10),

@@ -44,7 +44,7 @@ class AppBarScreen extends StatelessWidget {
 
             // Features
             const Text(
-              "Key Features of AppBar:",
+              "Features of AppBar:",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
