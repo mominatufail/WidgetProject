@@ -13,7 +13,7 @@ class _SplashscreenState extends State<Splashscreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Future.delayed(Duration(seconds: 5), () {
+    Future.delayed(Duration(seconds: 4), () {
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => HomeView()));
     });

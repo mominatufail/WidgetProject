@@ -26,17 +26,15 @@ class ExpandWidgetScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Features of Scaffold:',
+                  'Features of Expand Widget:',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 10),
                 Text(
-                  '1. AppBar: Display a header with navigation and actions at the top of the screen.\n'
-                      '2. Body: The main area to display widgets.\n'
-                      '3. FloatingActionButton: Add a floating action button for quick actions.\n'
-                      '4. Drawer: Implement a side navigation menu.\n'
-                      '5. BottomNavigationBar: Add a persistent bottom navigation bar for easy navigation.\n'
-                      '6. SnackBar: Show temporary notifications or messages.\n',
+                  '1. The Expanded widget in Flutter is used to make a child widget fill the available space within a Row, Column, or Flex. \n'
+                      '2. It resizes dynamically based on available space and allocates it proportionally if multiple Expanded widgets are present.\n'
+                      '3. It works with flexible constraints and prevents overflowing content by scaling widgets appropriately.\n'
+                      '4. Expanded is particularly useful for creating responsive layouts in Flutter applications.\n',
                   style: TextStyle(fontSize: 16, height: 1.5),
                 ),
                 SizedBox(height: 20),
