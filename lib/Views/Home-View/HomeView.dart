@@ -128,6 +128,29 @@ class HomeView extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>SizedBoxWidget()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade300,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'SizedBox Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
                   onTap: () {Navigator.push(context, CupertinoPageRoute(builder: (context)=>ButtonWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
@@ -441,29 +464,6 @@ class HomeView extends StatelessWidget {
                     child: Center(
                       child: Text(
                         'Stateless Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>SizedBoxWidget()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'SizedBox Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
