@@ -43,7 +43,6 @@ class SizedBoxWidget extends StatelessWidget {
             const Text(
                   "1. child: This property takes in a child widget as the object to display it below the SizedBox in the widget tree or inside the SizedBox n the screen. \n"
                   "2. height: This property specifies the height of SizedBox in pixels. It is a double value as the object.\n"
-                  "2. Customize background color, elevation, and shape.\n"
                   "3. width: This property also holds in a double value as the object to give width to the SizedBox.",
               style: TextStyle(fontSize: 16, height: 1.5),
             ),

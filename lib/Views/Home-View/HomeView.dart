@@ -29,7 +29,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.purple.shade50,
       appBar: AppBar(backgroundColor: Colors.purple.shade600,
-        title: Center(child: Text('Widget Screen'),),
+        title: Center(child: Text('Flutter Widgets Project '),),
       ),
       body: SingleChildScrollView(
         child: Row(mainAxisAlignment: MainAxisAlignment.center,
