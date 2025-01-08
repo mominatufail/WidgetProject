@@ -82,6 +82,52 @@ class HomeView extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>RowWidgetScreen()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade300,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Row Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ColumnWidgetScreen()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade400,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Column Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
                   onTap: () {Navigator.push(context, CupertinoPageRoute(builder: (context)=>ButtonWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
@@ -140,52 +186,6 @@ class HomeView extends StatelessWidget {
                     child: Center(
                       child: Text(
                         'List View Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>RowWidgetScreen()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.purple.shade400,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Row Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ColumnWidgetScreen()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Column Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
