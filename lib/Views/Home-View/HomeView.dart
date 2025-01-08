@@ -29,7 +29,8 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.purple.shade50,
       appBar: AppBar(backgroundColor: Colors.purple.shade600,actions: [
-        Icon(Icons.widgets,color: Colors.black,)
+        Icon(Icons.widgets_outlined,color: Colors.black,),
+        SizedBox(width: 20,)
       ],
         title: Center(child: Text('Flutter Widgets',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),),
       ),
