@@ -25,14 +25,19 @@ class _SplashscreenState extends State<Splashscreen> {
       body: Padding(
         padding: EdgeInsets.only(left: 20, top: 150, right: 20, bottom: 100,),
         child: Center(
-          child: Column(children: [
-            SizedBox(height: 80,),
-            Image(image: AssetImage('Assets/splash.png')),
-            Center(child: Text('Momina Tufail Web Portfolio',style: TextStyle(
-                color: Colors.purple,fontWeight: FontWeight.w900),)),
-            // SizedBox(height: 50,),
-            // Text('Submitted by Momina Tufail'),
-          ]
+          child: Center(
+            child: Column(children: [
+              Icon(Icons.widgets,color: Colors.purpleAccent,),
+              SizedBox(height: 10,),
+              Center(child: Text('Widgets Project',style: TextStyle(
+                  color: Colors.purple,fontWeight: FontWeight.w900),)),
+              SizedBox(height: 50,width: 80,),
+              Center(child:Text('Submitted By Momina Tufail',style: TextStyle(
+              color: Colors.purple,fontWeight: FontWeight.w900),)),
+              // SizedBox(height: 50,),
+              // Text('Submitted by Momina Tufail'),
+            ]
+            ),
           ),
         ),
       ),);
