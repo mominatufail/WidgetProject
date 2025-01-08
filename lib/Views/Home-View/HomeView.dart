@@ -151,6 +151,29 @@ class HomeView extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ContainerClass()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade400,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Container Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
                   onTap: () {Navigator.push(context, CupertinoPageRoute(builder: (context)=>ButtonWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
@@ -174,7 +197,7 @@ class HomeView extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ListTileWidgetScreen()));
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>CenterWidget()));
                   },
                   child: Container(height: 45,width: 200,
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
@@ -185,7 +208,53 @@ class HomeView extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
+                        'Center Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ListTileWidgetScreen()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade300,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
                         'List Tile Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>AssetImageWidgetScreen()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade400,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Asset Image Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -220,36 +289,13 @@ class HomeView extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>AssetImageWidgetScreen()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Asset Image Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
                     Navigator.push(context, CupertinoPageRoute(builder: (context)=>ImageWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.purple.shade400,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -287,29 +333,7 @@ class HomeView extends StatelessWidget {
                     ),
                   ),
                 ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ContainerClass()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Container Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+
                 GestureDetector(
                   onTap: () {
                     Navigator.push(context, CupertinoPageRoute(builder: (context)=>BoxDecorationScreen()));
@@ -348,29 +372,6 @@ class HomeView extends StatelessWidget {
                     child: Center(
                       child: Text(
                         'App Bar Screen',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>InputdecorationWidget()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Input Decoration Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -452,6 +453,29 @@ class HomeView extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>InputdecorationWidget()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Input Decoration Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
                     Navigator.push(context, CupertinoPageRoute(builder: (context)=>StatelessWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
@@ -487,29 +511,6 @@ class HomeView extends StatelessWidget {
                     child: Center(
                       child: Text(
                         'Stateful Widget',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>CenterWidget()));
-                  },
-                  child: Container(height: 45,width: 200,
-                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
-                    padding: EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Center Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
