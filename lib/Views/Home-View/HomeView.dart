@@ -463,7 +463,7 @@ class HomeView extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Stateless Widget',
+                        'SizedBox Widget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
