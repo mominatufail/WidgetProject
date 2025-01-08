@@ -27,6 +27,7 @@ class _SplashscreenState extends State<Splashscreen> {
         child: Center(
           child: Column(children: [
             SizedBox(height: 80,),
+            Image(image: AssetImage('Assets/splash.png')),
             Center(child: Text('Momina Tufail Web Portfolio',style: TextStyle(
                 color: Colors.purple,fontWeight: FontWeight.w900),)),
             // SizedBox(height: 50,),
