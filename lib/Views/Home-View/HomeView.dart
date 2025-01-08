@@ -28,7 +28,9 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Colors.purple.shade50,
-      appBar: AppBar(backgroundColor: Colors.purple.shade600,
+      appBar: AppBar(backgroundColor: Colors.purple.shade600,actions: [
+        Icon(Icons.widgets,color: Colors.black,)
+      ],
         title: Center(child: Text('Flutter Widgets',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),),
       ),
       body: SingleChildScrollView(
