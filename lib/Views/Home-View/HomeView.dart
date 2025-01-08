@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetproject/ButtonWidget.dart';
 import 'package:widgetproject/CenterWidget.dart';
+import 'package:widgetproject/ExpandWidget.dart';
 import 'package:widgetproject/ImageWidget.dart';
 import 'package:widgetproject/InkWellWidget.dart';
 import 'package:widgetproject/InputDecorationWidget.dart';
@@ -455,13 +456,36 @@ class HomeView extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>SinglechildscrollviewWidget()));
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>ExpandWidgetScreen()));
                   },
                   child: Container(height: 45,width: 200,
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
                       color: Colors.purple.shade300,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Expand Widget',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, CupertinoPageRoute(builder: (context)=>SinglechildscrollviewWidget()));
+                  },
+                  child: Container(height: 45,width: 200,
+                    margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                    padding: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.purple.shade400,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -484,7 +508,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade400,
+                      color: Colors.purple.shade300,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -507,7 +531,7 @@ class HomeView extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 14),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade300,
+                      color: Colors.purple.shade400,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
