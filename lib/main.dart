@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widgetproject/ButtonWidget.dart';
 import 'package:widgetproject/ListViewWidget.dart';
 import 'package:widgetproject/Views/Home-View/HomeView.dart';
+import 'package:widgetproject/Views/SplashScreen-View/SplashScreenView.dart';
 
 import 'AppBarWidget.dart';
 import 'AssetImageWidget.dart';
@@ -56,7 +57,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomeView()
+      home: Splashscreen()
+      //HomeView()
       //SizedBoxWidget()
       //ListTileWidgetScreen()
       //InputdecorationWidget()
