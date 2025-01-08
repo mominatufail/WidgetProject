@@ -4,7 +4,7 @@ class ExpandWidgetScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(backgroundColor: Colors.purple.shade300,
-          title: Center(child: Text('Scaffold Widget ')),
+          title: Center(child: Text('Expand Widget')),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -13,7 +13,7 @@ class ExpandWidgetScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'What is Scaffold?',
+                  'What is Expand Widget?',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 10),
