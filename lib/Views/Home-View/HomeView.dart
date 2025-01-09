@@ -53,7 +53,7 @@ class HomeView extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Material  App',
+                        'Material App',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
