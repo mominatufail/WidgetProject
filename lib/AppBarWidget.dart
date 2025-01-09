@@ -28,7 +28,7 @@ class AppBarScreen extends StatelessWidget {
           children: [
             // Header
             const Text(
-              "What is an AppBar?",
+              "What is an AppBarr?",
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
