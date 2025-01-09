@@ -121,7 +121,7 @@ class HomeView extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Column Widget',
+                        'ColumnWidget',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
