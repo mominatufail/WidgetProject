@@ -18,7 +18,7 @@ class InputdecorationWidget extends StatelessWidget {
             const Text(
               "What is InputDecoration Widget?",
               style: TextStyle(
-                fontSize: 2,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
               ),
             ),
