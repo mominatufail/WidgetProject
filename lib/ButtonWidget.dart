@@ -13,7 +13,7 @@ class ButtonWidgetScreen extends StatelessWidget {
           children: [
             Text(
               'What are Button Widgets?',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
